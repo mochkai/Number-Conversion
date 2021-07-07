@@ -61,6 +61,18 @@ namespace RomanNumberDemo
 
             // Output the huge string with custom factors
             Console.WriteLine(String.Format("Huge roman numeral string with custom factors : {0}", romanNumber.toString()));
+
+            /*
+                Expected output for the Console Lines
+
+                Roman numeral string : MMMCDLXXXII
+                Number value of roman numeral : 2796
+                Not a roman numeral string : ACCEDFGGG
+                Number value of non roman numeral : 2796
+                Large roman numeral string : M̿M̿M̿C̿M̿X̿V̿M̅M̅D̅C̅C̅C̅L̅MMCDLXII
+                Large roman numeral string with custom factors : M̃M̃M̃C̃M̃X̃ṼM̂M̂D̂ĈĈĈL̂MMCDLXII
+                Huge roman numeral string with custom factors : M̃M̃C̃X̃L̃ṼM̂M̂M̂D̂X̂X̂M̿M̿M̿C̿X̿L̿M̅V̿C̅M̅X̅MMCLXXXII
+            */
         }
     }
 }
